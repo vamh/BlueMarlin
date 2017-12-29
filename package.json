@@ -1,0 +1,12 @@
+{
+  "name": "blue-marlin",
+  "version": "0.0.0",
+  "description": "BlueMarlin",
+  "main": "app.js",
+  "author": {
+    "name": "beep"
+  },
+  "dependencies": {
+    "discord.js": "^11.2.1"
+  }
+}
