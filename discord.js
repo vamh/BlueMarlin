@@ -63,7 +63,7 @@ client.on('userUpdate', (oldUser, newUser) => {
     exports.msg_conf('STALKER', _ => newUser.tag + ' has changed their avatar to ' + newUser.avatarURL + '!');
 });
 
-client.login('NDIxODI3OTMxMjc5NzIwNDU4.DYS5Zg.4TQ-73CjPNmb1_butx_qMAwTP-4');
+client.login('');
 
 exports.msg_conf = async function (key, msgFunc) {
     const userlist = await database.get_conf(key);
